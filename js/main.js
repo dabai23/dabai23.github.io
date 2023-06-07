@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	var qrCode2Image = new Image(); /* 创建一个Image对象用于加载QR Code图像 */
 	qrCode2Image.src = new QRCode(document.createElement("div") /* 创建一个div元素 */, {
-		text: "wxp://f2f0NdB0Tq3drCrXZ8rxJyod43maWrtZSQFHI2CRLBMg87sDvKjI7vEfap2akfmRwIWI" /* 设置二维码2的内容 */,
+		text: "wxp://f2f0tSJ0ZZbTjiv7Kk0QmnqBh6TpIsu_sZGQ5vw8JyWeMHs" /* 设置二维码2的内容 */,
 		width: 300 /* 设置二维码宽度 */,
 		height: 300 /* 设置二维码高度 */,
 		correctLevel: QRCode.CorrectLevel.H /* 设置二维码纠错级别 */,
