@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// 创建第二行页脚元素并设置文本内容、字体大小和颜色
 	var line2 = document.createElement("div");
-	line2.textContent = "USDT:TDieuomyJMeN7tK5XwP1nhykw5dDiDLZ4n";
+	line2.textContent = "大白博客：www.c1i.cn";
 	line2.style.fontSize = "0.9125rem"; // 设置初始的第二行页脚的字体大小
 	line2.style.color = "#666666"; // 设置第二行页脚的字体颜色
 	line2.style.cursor = "pointer"; // 设置鼠标样式为指针
