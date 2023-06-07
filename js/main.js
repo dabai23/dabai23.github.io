@@ -1,10 +1,3 @@
-/*
-Program name: Payment Code
-Author: NianBroken
-Website: https://www.nianbroken.top/
-Gmail: suinian666@gmail.com
-Time: 2023.06.06
-*/
 document.addEventListener("DOMContentLoaded", function () {
 	/* 当HTML文档加载完成后执行函数 */ var qrCode1Image = new Image(); /* 创建一个Image对象用于加载QR Code图像 */
 	qrCode1Image.src = new QRCode(document.createElement("div") /* 创建一个div元素 */, {
